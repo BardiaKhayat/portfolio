@@ -38,11 +38,12 @@
   border-radius: 10px;
   }
   .flip {
+  background: rgb(120,186,178);
+  background: linear-gradient(90deg, rgba(120,186,178,1) 0%, rgba(89,44,77,1) 100%, rgba(0,0,0,1) 100%);
   width:100%;
   font-family:Audiowide;
   font-size:1.875em;
   padding:10px;
-  border:2px solid white;
   border-radius:10px;
   }
  .flip:hover {
@@ -139,7 +140,7 @@
 	  <p class="container-sm mt-3" id="grad" style="cursor:context-menu; font-family:Fuzzy Bubbles; text-align:justify;">My name is Bardia, I'm Software Engineer from France and this is my personal WebPage that you can read about me.</p>
     </div>
     <div class="col-sm-8 bg-dark pt-5">
-    <button class="container-fluid flip bg-secondary text-white text-center" id="flip" style="font-family:Audiowide; font-size:1.875em;">PARTICULARITY</button>
+    <button class="container-fluid flip text-white text-center" id="flip" style="font-family:Audiowide; font-size:1.875em;">PARTICULARITY</button>
       <div class="container-fluid bg-light" id="panel" style="display:none;">
 	  <img class="img-responsive" style="padding:0px; margin:0px; width:100%; border:10px double white;" src="Laptop.jpg" alt="web-design"></img>
 	  <h1 class="mt-3" style="text-shadow: 2px 2px 5px darkblue; font-family:Audiowide;">SINSPIRED BY DIFFERENCE !</h1>
@@ -160,7 +161,7 @@
 	  <hr>
 	  <h6 style="text-align:justify; padding-bottom:20px;">Chances are when you started your business, you vigorously established what and who your target audience would be. As established and well-rounded as your target market might be on paper, in practice, targeting this market can be tricky. Once again, this is where design comes in. Design is able to communicate who an item is made for and thus is able to attract these exact people. In this way, design can act as a universal language of sorts that (subconsciously) signals to consumers who this product is made for, who benefits from it etc. Making your product as easily identifiable as possible also makes the process smoother for your consumer.</h6>
 	  </div>
-	  <button class="container-fluid flip mt-2 bg-secondary text-white text-center" id="flip2" style="font-family:Audiowide; font-size:1.875em;">SKILLS</button>
+	  <button class="container-fluid flip mt-3 text-white text-center" id="flip2" style="font-family:Audiowide; font-size:1.875em;">SKILLS</button>
 	  <div class="container-fluid  bg-light" id="panel2" style="display:none;">
 	  <div class="p-2" id="progressBarImage">
 	  <h2 class="mt-5" style="font-family:Audiowide;">MY SKILLS</h2>
@@ -191,8 +192,8 @@
       </div>
 	  </div>
 	  </div>
-	  <button class="container-fluid flip mt-2 bg-secondary text-white text-center" id="flip3" style="font-family:Audiowide; font-size:1.875em;">RESUME</button>
-	  <div class="container-fluid  bg-light" id="panel2" style="display:none;">
+	  <button class="container-fluid flip mt-3 text-white text-center" id="flip3" style="font-family:Audiowide; font-size:1.875em;">RESUME</button>
+	  <div class="container-fluid  bg-light" id="panel3" style="display:none;">
 	  <h2 style="text-shadow: 2px 2px 5px darkblue; font-family:Audiowide;" id="resume">MY RESUME</h2>
       <h5 class="bg-dark text-white mt-3" style="padding-left:20px; border-radius:15px;">Education</h5>
 	  <ul><li>Bachelor of Software Engineering <span style='font-size:20px;'>&#127891;</span></li></ul>
@@ -204,13 +205,13 @@
 	  <li>Frederic Agency &#128205; Bar le duc, France</li>
 	  </ul>
       </div>
-	  <button class="container-fluid flip mt-2 bg-secondary text-white text-center" id="flip4" style="font-family:Audiowide; font-size:1.875em;">RECENT PROJECTS</button>
-	  <div class="container-fluid  bg-light" id="panel2" style="display:none;">
+	  <button class="container-fluid flip mt-3 text-white text-center" id="flip4" style="font-family:Audiowide; font-size:1.875em;">RECENT PROJECTS</button>
+	  <div class="container-fluid  bg-light" id="panel4" style="display:none;">
 	  <h2 style="text-shadow: 2px 2px 5px darkblue; font-family:Audiowide;" id="recent">RECENT PROJECTS</h2>
 	  <div class="spinner-border text-info"></div>
 	  </div>
-	  <button class="container-fluid flip mt-2 mb-3 bg-secondary text-white text-center" id="flip5" style="font-family:Audiowide; font-size:1.875em;">CONTACT</button>
-	  <div class="container-fluid  bg-light" id="panel2" style="display:none;">
+	  <button class="container-fluid flip mt-3 mb-3 text-white text-center" id="flip5" style="font-family:Audiowide; font-size:1.875em;">CONTACT</button>
+	  <div class="container-fluid  bg-light" id="panel5" style="display:none;">
 	  <h2 style="text-shadow: 2px 2px 5px darkblue; font-family:Audiowide;" id="contact">CONTACT</h2>
 	  <h5 class="bg-dark text-white mt-3" style="padding-left:20px; border-radius:15px;">LET’S TALK</h5>
 	  <div class="containerContact">
