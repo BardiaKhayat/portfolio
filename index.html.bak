@@ -161,7 +161,7 @@
 	  <hr>
 	  <h6 style="text-align:justify; padding-bottom:20px;">Chances are when you started your business, you vigorously established what and who your target audience would be. As established and well-rounded as your target market might be on paper, in practice, targeting this market can be tricky. Once again, this is where design comes in. Design is able to communicate who an item is made for and thus is able to attract these exact people. In this way, design can act as a universal language of sorts that (subconsciously) signals to consumers who this product is made for, who benefits from it etc. Making your product as easily identifiable as possible also makes the process smoother for your consumer.</h6>
 	  </div>
-	  <button class="container-fluid flip mt-3 text-white text-center" id="flip2" style="font-family:Audiowide; font-size:1.875em;">SKILLS</button>
+	  <button class="container-fluid flip mt-4 text-white text-center" id="flip2" style="font-family:Audiowide; font-size:1.875em;">SKILLS</button>
 	  <div class="container-fluid  bg-light" id="panel2" style="display:none;">
 	  <div class="p-2" id="progressBarImage">
 	  <h2 class="mt-5" style="font-family:Audiowide;">MY SKILLS</h2>
@@ -192,7 +192,7 @@
       </div>
 	  </div>
 	  </div>
-	  <button class="container-fluid flip mt-3 text-white text-center" id="flip3" style="font-family:Audiowide; font-size:1.875em;">RESUME</button>
+	  <button class="container-fluid flip mt-4 text-white text-center" id="flip3" style="font-family:Audiowide; font-size:1.875em;">RESUME</button>
 	  <div class="container-fluid  bg-light" id="panel3" style="display:none;">
 	  <h2 style="text-shadow: 2px 2px 5px darkblue; font-family:Audiowide;" id="resume">MY RESUME</h2>
       <h5 class="bg-dark text-white mt-3" style="padding-left:20px; border-radius:15px;">Education</h5>
@@ -205,12 +205,12 @@
 	  <li>Frederic Agency &#128205; Bar le duc, France</li>
 	  </ul>
       </div>
-	  <button class="container-fluid flip mt-3 text-white text-center" id="flip4" style="font-family:Audiowide; font-size:1.875em;">RECENT PROJECTS</button>
+	  <button class="container-fluid flip mt-4 text-white text-center" id="flip4" style="font-family:Audiowide; font-size:1.875em;">RECENT PROJECTS</button>
 	  <div class="container-fluid  bg-light" id="panel4" style="display:none;">
 	  <h2 style="text-shadow: 2px 2px 5px darkblue; font-family:Audiowide;" id="recent">RECENT PROJECTS</h2>
 	  <div class="spinner-border text-info"></div>
 	  </div>
-	  <button class="container-fluid flip mt-3 mb-3 text-white text-center" id="flip5" style="font-family:Audiowide; font-size:1.875em;">CONTACT</button>
+	  <button class="container-fluid flip mt-4 mb-3 text-white text-center" id="flip5" style="font-family:Audiowide; font-size:1.875em;">CONTACT</button>
 	  <div class="container-fluid  bg-light" id="panel5" style="display:none;">
 	  <h2 style="text-shadow: 2px 2px 5px darkblue; font-family:Audiowide;" id="contact">CONTACT</h2>
 	  <h5 class="bg-dark text-white mt-3" style="padding-left:20px; border-radius:15px;">LET’S TALK</h5>
