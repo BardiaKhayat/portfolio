@@ -169,23 +169,23 @@
 	  <div class="progress">
       <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width:75%">75%</div>
 	  </div>
-	  <h6 class="mt-2">HTML/CSS 85%</h6>
+	  <h6 class="mt-2" style="font-family:Audiowide; font-size:0.875em">HTML/CSS 85%</h6>
 	  <div class="progress">
 	  <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width:85%">85%</div>
       </div>
-	  <h6 class="mt-2">JAVASCRIPT 70%</h6>
+	  <h6 class="mt-2" style="font-family:Audiowide; font-size:0.875em">JAVASCRIPT 70%</h6>
 	  <div class="progress">
 	  <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width:70%">70%</div>
       </div>
-	  <h6 class="mt-2">PYTHON 70%</h6>
+	  <h6 class="mt-2" style="font-family:Audiowide; font-size:0.875em">PYTHON 70%</h6>
 	  <div class="progress">
 	  <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width:70%">70%</div>
       </div>
-	  <h6 class="mt-2">PHOTOSHOP 80%</h6>
+	  <h6 class="mt-2" style="font-family:Audiowide; font-size:0.875em">PHOTOSHOP 80%</h6>
 	  <div class="progress">
 	  <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width:80%">80%</div>
       </div>
-	  <h6 class="mt-2">ILLUSTRATOR 75%</h6>
+	  <h6 class="mt-2" style="font-family:Audiowide; font-size:0.875em">ILLUSTRATOR 75%</h6>
 	  <div class="progress">
 	  <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width:75%">75%</div>
       </div>
