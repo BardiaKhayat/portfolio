@@ -1,0 +1,130 @@
+  #MyPicture {
+  max-width:100%;
+  height:auto;
+  animation-name: photoAnimation;
+  animation-duration: 4s;
+  }
+  @keyframes photoAnimation {
+  from {opacity:0;}
+  to {opacity:1;}
+  }
+  .flip {
+  background: rgb(120,186,178);
+  background: linear-gradient(90deg, rgba(120,186,178,1) 0%, rgba(89,44,77,1) 100%, rgba(0,0,0,1) 100%);
+  width:100%;
+  font-family:Audiowide;
+  font-size:1.875em;
+  padding:10px;
+  border-radius:10px;
+  }
+  .flip:hover {
+  box-shadow: 0 0 5px white;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(118,12,156,100));
+  }
+  #flip {
+  animation-name: flipAnimation;
+  animation-duration: 2s;
+  }
+  @keyframes flipAnimation {
+  from {opacity:0;}
+  to {opacity:1;}
+  }
+  #flip2 {
+  animation-name: flip2Animation;
+  animation-duration: 3s;
+  }
+  @keyframes flip2Animation {
+  from {opacity:0;}
+  to {opacity:1;}
+  }
+  #flip3 {
+  animation-name: flip3Animation;
+  animation-duration: 4s;
+  }
+  @keyframes flip3Animation {
+  from {opacity:0;}
+  to {opacity:1;}
+  }
+  #flip4 {
+  animation-name: flip4Animation;
+  animation-duration: 5s;
+  }
+  @keyframes flip4Animation {
+  from {opacity:0;}
+  to {opacity:1;}
+  }
+  #flip5 {
+  animation-name: flip5Animation;
+  animation-duration: 6s;
+  }
+  @keyframes flip5Animation {
+  from {opacity:0;}
+  to {opacity:1;}
+  }
+  #logo {
+  width:50px;
+  position: relative;
+  animation-name: logoAnimation;
+  animation-duration: 1s;
+  }
+  @keyframes logoAnimation {
+  0%   {left:0px; top:0px;
+       transform: rotate(20deg)}
+  50%  {left:200px; top:0px;
+       transform: rotate(80deg)}
+  100% {left:0px; top:0px;}
+  }
+  #bar {
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(118,12,156,100));
+  color: white;
+  padding:3px;
+  animation-name: barAnimation;
+  animation-duration: 3s;
+  }
+  @keyframes barAnimation {
+  from {opacity:0;}
+  to {opacity:1;}
+  }
+  #panel2 {
+  background:url('Me.png');
+  background-size:contain;
+  background-repeat:no-repeat;
+  padding:0px; 
+  margin:0px; 
+  width:100%; 
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+  #titleTxt {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+  input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  }
+  input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+  input[type=submit]:hover {
+  background-color: #45a049;
+  }
+  .containerContact {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  }
+  .nav-item:hover {
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(118,12,156,100));
+  }
