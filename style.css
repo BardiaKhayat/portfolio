@@ -1,16 +1,6 @@
-  #MyPicture {
-  max-width:100%;
-  height:auto;
-  animation-name: photoAnimation;
-  animation-duration: 4s;
-  }
-  @keyframes photoAnimation {
-  from {opacity:0;}
-  to {opacity:1;}
-  }
   .flip {
-  background: rgb(120,186,178);
-  background: linear-gradient(90deg, rgba(120,186,178,1) 0%, rgba(89,44,77,1) 100%, rgba(0,0,0,1) 100%);
+  background: rgba(120,186,178,0.3);
+  background: linear-gradient(90deg, rgba(120,186,178,0.3) 0%, rgba(89,44,77,0.3) 100%, rgba(0,0,0,0.3) 100%);
   width:100%;
   font-family:Audiowide;
   font-size:1.875em;
@@ -20,6 +10,38 @@
   .flip:hover {
   box-shadow: 0 0 5px white;
   background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(118,12,156,100));
+  }
+  .leftPanel {
+	   display:none;
+    }
+  #leftFlip{
+	    margin:0px; 
+		border:5px inset rgba(118,12,156,100); 
+		height:100%; 
+		font-family:Audiowide; 
+		font-size:0.9em; 
+		background:url('side.jpg');
+		background-size:cover; 
+		background-repeat:no-repeat;
+  }
+  #leftFlip:hover {
+	    box-shadow: 0 0 5px white;
+  }
+  #photoMiddle {
+  animation-name: photoMiddleAnimation;
+  animation-duration: 3s;
+  }
+  @keyframes photoMiddleAnimation {
+  from {opacity:0;}
+  to {opacity:1;}
+  }
+  #photoSide {
+  animation-name: photoSideAnimation;
+  animation-duration: 3s;
+  }
+  @keyframes photoSide {
+  from {opacity:0;}
+  to {opacity:1;}
   }
   #flip {
   animation-name: flipAnimation;
@@ -77,27 +99,8 @@
   #bar {
   background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(118,12,156,100));
   color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px black;
   padding:3px;
-  animation-name: barAnimation;
-  animation-duration: 3s;
-  }
-  @keyframes barAnimation {
-  from {opacity:0;}
-  to {opacity:1;}
-  }
-  #panel2 {
-  background:url('Me.png');
-  background-size:contain;
-  background-repeat:no-repeat;
-  padding:0px; 
-  margin:0px; 
-  width:100%; 
-  color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-  }
-  #titleTxt {
-  color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   }
   input[type=text], select, textarea {
   width: 100%;
@@ -124,7 +127,4 @@
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
-  }
-  .nav-item:hover {
-  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(118,12,156,100));
   }
