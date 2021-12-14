@@ -22,13 +22,18 @@
 		background:url('side.jpg');
 		background-size:cover; 
 		background-repeat:no-repeat;
-  }
-  #leftFlip:hover {
 	    box-shadow: 0 0 5px white;
   }
+  #leftFlip:hover {
+	    box-shadow: 0 0 8px white;
+  }
   #photoMiddle {
+  border:5px inset rgba(118,12,156,100); 
+  border-radius:10px; background:url('photo.jpg'); 
+  background-size:cover; 
+  background-repeat:no-repeat;
   animation-name: photoMiddleAnimation;
-  animation-duration: 3s;
+  animation-duration: 2s;
   }
   @keyframes photoMiddleAnimation {
   from {opacity:0;}
@@ -36,7 +41,7 @@
   }
   #photoSide {
   animation-name: photoSideAnimation;
-  animation-duration: 3s;
+  animation-duration: 1s;
   }
   @keyframes photoSide {
   from {opacity:0;}
@@ -44,7 +49,7 @@
   }
   #flip {
   animation-name: flipAnimation;
-  animation-duration: 2s;
+  animation-duration: 1s;
   }
   @keyframes flipAnimation {
   from {opacity:0;}
@@ -52,7 +57,7 @@
   }
   #flip2 {
   animation-name: flip2Animation;
-  animation-duration: 3s;
+  animation-duration: 1s;
   }
   @keyframes flip2Animation {
   from {opacity:0;}
@@ -60,7 +65,7 @@
   }
   #flip3 {
   animation-name: flip3Animation;
-  animation-duration: 4s;
+  animation-duration: 1s;
   }
   @keyframes flip3Animation {
   from {opacity:0;}
@@ -68,7 +73,7 @@
   }
   #flip4 {
   animation-name: flip4Animation;
-  animation-duration: 5s;
+  animation-duration: 1s;
   }
   @keyframes flip4Animation {
   from {opacity:0;}
@@ -76,7 +81,7 @@
   }
   #flip5 {
   animation-name: flip5Animation;
-  animation-duration: 6s;
+  animation-duration: 1s;
   }
   @keyframes flip5Animation {
   from {opacity:0;}
