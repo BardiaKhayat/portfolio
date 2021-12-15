@@ -29,7 +29,8 @@
   }
   #photoMiddle {
   border:5px inset rgba(118,12,156,100); 
-  border-radius:10px; background:url('photo.jpg'); 
+  border-radius:10px; 
+  background:url('photo.jpg'); 
   background-size:cover; 
   background-repeat:no-repeat;
   animation-name: photoMiddleAnimation;
@@ -44,14 +45,6 @@
   animation-duration: 1s;
   }
   @keyframes photoSide {
-  from {opacity:0;}
-  to {opacity:1;}
-  }
-  #flip {
-  animation-name: flipAnimation;
-  animation-duration: 1s;
-  }
-  @keyframes flipAnimation {
   from {opacity:0;}
   to {opacity:1;}
   }
@@ -76,14 +69,6 @@
   animation-duration: 1s;
   }
   @keyframes flip4Animation {
-  from {opacity:0;}
-  to {opacity:1;}
-  }
-  #flip5 {
-  animation-name: flip5Animation;
-  animation-duration: 1s;
-  }
-  @keyframes flip5Animation {
   from {opacity:0;}
   to {opacity:1;}
   }
