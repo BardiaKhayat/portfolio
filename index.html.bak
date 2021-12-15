@@ -55,7 +55,7 @@
 	<button class="container-fluid text-white" style="border-radius:10px;" id="leftFlip">WHO AM I</button>
 	</div> 
 	<div class="col-sm-4 bg-dark" id="photoMiddle">
-	<h5 class="mt-4 leftPanel text-danger" id="bar" style="text-shadow: 2px 2px 5px darkblue; font-family:Audiowide; font-size:1.275em; text-align:center;">An problem solver with a passion for online businesses</h5>
+	<h5 class="mt-4 leftPanel text-white" id="bar" style="text-shadow: 2px 2px 5px darkblue; font-family:Audiowide; font-size:1.275em; text-align:center;">An problem solver with a passion for online businesses</h5>
     <h6 class="mt-3 text-dark leftPanel p-2" style="border-radius:10px; background: rgba(255,255,255,0.7);font-family:Teko; text-shadow: 2px 2px 5px darkblue; text-align:justify; font-size:1.475em;">I have much experience of creating logical and innovative solutions to complex problems. I'm through and precise in everything I do, and have a keen interest in technology. As someone who takes responsibility for his own personal development, I'm continually evaluating and upgrading my skills so that I stay at the cutting edge of web development.</h6>
 	</div>
     <div class="col-sm-6 p-2 bg-dark" id="photoSide" style="background:url('bg-main.jpg'); background-size:cover; background-repeat:no-repeat;">
